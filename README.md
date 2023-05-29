@@ -30,10 +30,10 @@ These commands will download and install the necessary packages for your Replit 
 Name: DISCORD_TOKEN 
 Value: Your Discord bot Token
 ```
-Ensure that you save the secrets. Also, you have the option to modify the name of the `DISCORD_TOKEN` variable in the `config.js` file.
+then you have to save the secrets. Also, you have the option to modify the name of the `DISCORD_TOKEN` variable in the `config.js` file.
 
-7. Run it thats all also you can change the `config.js`
+7. and finally run the code, and that's all! If desired, feel free to customize the source code according to your preferences.
 
 
 # Note
-- We are gonna add more commands later, also it does look messy but we are trying to make it really easy for beginner
+- We plan to include more additional commands in the future. Please note that the current code and file may appear a bit messy, but our intention is to ease the use, especially for beginners who are interested in creating their own Discord bot.
