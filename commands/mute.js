@@ -35,6 +35,7 @@ module.exports = {
           .setFooter('AdvanceBot', message.client.user.avatarURL())
           .setTimestamp();
 
+        // Send the embed message as a reply
         message.reply({ embeds: [muteEmbed] });
       })
       .catch(error => {
