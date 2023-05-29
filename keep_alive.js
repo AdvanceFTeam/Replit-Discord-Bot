@@ -1,12 +1,12 @@
 const express = require('express');
 const app = express();
 
-// Basic endpoint to check if the server is running
+// Endpoint to check if the server is running
 app.get('/', (req, res) => {
   res.send('Bot is running.');
 });
 
-// Start the server
+// Function to start the server
 const startServer = () => {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
@@ -14,4 +14,5 @@ const startServer = () => {
   });
 };
 
+// Export the function to start the server
 module.exports = startServer;
