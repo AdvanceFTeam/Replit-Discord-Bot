@@ -1,6 +1,5 @@
 # Working-Discord-Bot
-A fully working discord bot that has command that are really useful for your server and we made it easy to edit the source code.
-
+This project provides a fully functional Discord bot with useful commands for your server. We designed it to be easily customizable and modifiable to meet your specific requirements.
 
 # Installation
 To install the necessary packages for your Node.js project, follow these steps:
