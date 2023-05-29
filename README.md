@@ -1,4 +1,4 @@
-# Working-Discord-Bot
+# Info
 This project provides a fully functional Discord bot with useful commands for your server. We designed it to be easily customizable and modifiable to meet your specific requirements.
 
 # Installation on Replit
