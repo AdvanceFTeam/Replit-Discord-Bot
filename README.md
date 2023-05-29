@@ -1,5 +1,5 @@
 # Info
-This project provides a fully functional Discord bot with useful commands for your server. We designed it to be easily customizable and modifiable to meet your specific requirements.
+This project provides a fully functional Discord bot with useful commands for your server. We designed it to be easily customizable and modifiable to meet your specific requirements for REPLIT.
 
 # Installation on Replit
 1. To get started with the Discord bot and install the necessary packages for your Replit project, follow these simple steps:
