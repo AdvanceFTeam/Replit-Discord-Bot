@@ -27,6 +27,7 @@ module.exports = {
         message.channel
           .send(`Successfully deleted ${deletedCount} message(s).`)
           .then((reply) => {
+            // Delete the success message after a certain amount of time (in this case, 5 seconds)
             reply.delete({ timeout: 5000 }).catch(console.error);
           })
           .catch(console.error);
