@@ -1,7 +1,9 @@
 # Info
 This project provides a fully functional Discord bot with useful commands for your server. We designed it to be easily customizable and modifiable to meet your specific requirements for REPLIT.
 
-The **important** files in this project are `index.js` and `config.js`. If you don't require the bot server to stay active constantly, you can safely delete the `keep_alive.js` file. Ensure that you remove any references to `keep_alive` from the `index.js` file. The commands folder contains the command files used by the bot.
+The **important** files in this project are `index.js` and `config.js`. If you don't require the bot server to stay active constantly, you can safely delete the `keep_alive.js` file. Ensure that you remove any references to `keep_alive` from the `index.js` file. 
+
+- The commands folder contains the command files used by the bot.
 
 # Installation on Replit
 1. To get started with the Discord bot and install the necessary packages for your Replit project, follow these simple steps:
