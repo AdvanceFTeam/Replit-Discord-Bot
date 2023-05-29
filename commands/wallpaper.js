@@ -7,6 +7,7 @@ module.exports = {
   usage: '**!wallpaper**',
   async execute(message) {
     try {
+      // Fetch SFW (Safe for Work) wallpaper content from the API
       const response = await axios.get(`${API_BASE_URL}/img/sfw?type=wallpaper`);
       message.channel.send(response.data.url);
     } catch (error) {
