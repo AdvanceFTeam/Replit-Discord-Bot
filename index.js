@@ -21,21 +21,12 @@ client.once('ready', () => {
   console.log(`Bot logged in as ${client.user.tag}`);
 
   // Set the bot's status
-  client.user.setActivity('!help', {
-    type: 'LISTENING',
-    // Additional options for the bot's status
-    // You can customize these as per your preference
-    // For example, you can add more status types like 'WATCHING', 'PLAYING', etc.
-    // and update the activity message accordingly
-    // Refer to the Discord.js documentation for more options: https://discord.js.org/#/docs/main/stable/typedef/ActivityOptions
-    status: 'online', // Set the status of the bot
-    // You can also set the bot's status to 'idle', 'dnd' (do not disturb), or 'invisible'
-    // Example: status: 'idle'
-    afk: false, // Set whether the bot is considered AFK (away from keyboard)
-    // Example: afk: true
+  client.user.setActivity('Try my command: !help', {
+    type: 'PLAYING',
+    status: 'online',
+    afk: false,
   });
 });
-
 
 // Event handler for incoming messages
 client.on('messageCreate', message => {
