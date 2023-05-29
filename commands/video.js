@@ -7,10 +7,12 @@ module.exports = {
   description: '**(NSFW)** Returns a randomly selected video content.',
   usage: '**!video**',
   execute(message) {
+    // Check if the channel is NSFW
     if (!message.channel.nsfw) {
       return message.reply('This command can only be used in NSFW channels.');
     }
 
+    // Fetch NSFW content of type 'video' from the API
     axios.get(`${API_BASE_URL}/img/nsfw?type=video`)
       .then(response => {
         const nsfwContent = response.data;
