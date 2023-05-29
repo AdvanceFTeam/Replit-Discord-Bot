@@ -21,7 +21,7 @@ client.once('ready', () => {
   console.log(`Bot logged in as ${client.user.tag}`);
 
   // Set the bot's status
-  client.user.setActivity('Try my command: !help', {
+  client.user.setActivity('!help', {
     type: 'PLAYING',
     status: 'online',
     afk: false,
